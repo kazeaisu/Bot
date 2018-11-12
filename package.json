@@ -1,0 +1,14 @@
+{
+  "name": "*進化した*初めて成功したBot",
+  "description": "A Discord bot coded in Discord.JS, hosted using Heroku.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0",
+    "dotenv" : "6.1.0"
+  }
+}
