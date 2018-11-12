@@ -1,0 +1,1 @@
+worker: NODE_ENV=NTAwNTgwODY2NDQ4MjkzODk5.DsrjJA.9pDCVdW2vt8iDAnlMn4ikiHt9eY node app.js
