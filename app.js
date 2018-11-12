@@ -13,11 +13,9 @@ const discord = require("discord.js");
 const bot = new Discord.Client();
 const client = new Discord.Client();
 const config = require("./config.json");
-var weather = require('weather-js');
 const low = require('lowdb'); 
 const FileSync = require('lowdb/adapters/FileSync');
 const adapter = new FileSync('./db.json');
-const adapter2 = new FileSync('./name.json');
 const adapter3 = new FileSync('./global-ban.json');
 const global = require("./global-ban.json");
 //--------------------------------------------------------------------------------------------
