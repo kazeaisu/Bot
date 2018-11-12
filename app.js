@@ -8,11 +8,6 @@ const サイコロ = ['http://urx2.nu/MkU7'
                  const fs = require("fs");
                  require('dotenv').config()
                  const request = require('request')
-const geocoder = require('geocoder')
-const data = require('./data.json')
-const url = 'http://api.openweathermap.org/data/2.5/weather'
-const location = 'yamaguchi-ken,jp'
-const units = 'metric'
 const Discord = require("discord.js");
 const discord = require("discord.js");
 const bot = new Discord.Client();
