@@ -1053,4 +1053,5 @@ message.reply('人が多すぎます！(褒め言葉)\n' + "\`\`\`" +e+"\`\`\`")
   .catch(error => message.reply(`${error}`));
     }
 });
-client.login(config.token);
+const env = process.env.NODE_ENV;
+client.login(env);
